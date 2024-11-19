@@ -1,0 +1,33 @@
+* {
+    color: gray;
+}
+
+
+p {
+    color: green;
+}
+
+
+p {
+    color: blueviolet;
+}
+
+.textoazul {
+    color: blue;
+}
+
+#textomarron {
+    color: brown;
+}
+
+
+p.textorojo {
+    color: red;
+}
+
+#textonaranja {
+    color: orange;
+}
+
+
+  
