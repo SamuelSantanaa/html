@@ -1,0 +1,59 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox */
+
+/*******Primer ejemplo****/ 
+
+.flex-container {  /*obligado*/
+    display: flex; /*obligado*/
+    background-color: rgb(253, 12, 253);
+    flex-direction: column; /*como se apilan los elementos: columnas*/
+  }
+
+  .flex-container > div {               /*Los elementos hijos de flex-container se convierten automáticamente en flex-items.*/
+    background-color: #f1f1f1;
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  .flex-container > p {               /*Los elementos hijos de flex-container se convierten automáticamente en flex-items.*/
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+  }
+
+
+  /***Segundo ejemplo****/
+
+.flex-container2 {  /*obligado*/
+    display: flex; /*obligado*/
+    background-color: rgb(0, 171, 37);
+    flex-wrap: wrap;  /*los elementos se ajustan si es necesario, modificar ancho ventana*/
+  }
+
+  .flex-container2 > div {               /*Los elementos hijos de flex-container se convierten automáticamente en flex-items.*/
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  /***Tercer ejemplo***/
+  .flex-container3 {  /*obligado*/
+    display: flex; /*obligado*/
+    background-color: rgb(242, 146, 37);
+    justify-content:center;  /*los elementos se alinean en el centro del contenedor*/
+  }
+
+  .flex-container3 > div {               /*Los elementos hijos de flex-container se convierten automáticamente en flex-items.*/
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    width: 10px;
+    font-size: 5px;
+    text-align: right;
+  }
