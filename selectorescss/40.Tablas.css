@@ -1,0 +1,16 @@
+table {                         /*borde exterior*/
+    border: 1px solid #000;
+    border-collapse: collapse;    /*se fusionan los bordes*/
+  }
+  table td {
+      border: 1px solid #000;     /*borde de celda*/
+      padding: 20px;              /*separación interior*/
+      width: 50px;                /*ancho exacto de celda, el resto lo baja*/
+  }
+  table tr:hover {                /*sólo se pone gris la fila donde pasamos el ratón*/
+    background-color: #ccc;
+  }
+  table td:hover {                /*sólo se pone en blanco con fondo negro la celda*/
+    background-color: #000;
+    color: #fff;
+  }
