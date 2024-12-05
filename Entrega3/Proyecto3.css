@@ -97,7 +97,7 @@ h3{
 
 div.gallery {
 
-    border: 1px solid #ccc;
+   
     float: left;
   
   }
@@ -114,4 +114,8 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+    color:rgb(60, 208, 60);
+  }
+  img {
+    border-radius: 80px;
   }
