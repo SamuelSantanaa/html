@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+    background-position: center;
+    
+    background-attachment:fixed;
+    background-size: cover;
+   } 
+   h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkorange;
+    text-align: center;
+
+   }
+
+  div {
+    text-align: left;
+    color: goldenrod;
+    font-size: x-large;
+
+  }

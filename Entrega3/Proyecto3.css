@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:linen;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: orange;
+    text-decoration: none;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+   text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    border: 1px solid black;
+    background-color: whitesmoke;
+   
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    text-decoration: none;
+    background-color :rgb(250, 191, 81);
+    
+  }
+  
+  /* Style the content */
+  .content {
+   
+    padding: 10px;
+    
+  }
+  
+  /* Style the footer */
+  .footer {
+    font-size: medium;
+   
+    padding: 10px;
+  }
+
+  td{
+    font-size: x-large;
+    
+    color:MediumSlateBlue;
+    font-weight:900;
+    
+    
+ }
+p{
+    font-size: x-large;
+    
+    color:MediumSlateBlue;
+    text-align: center;
+    font-weight:950; 
+   
+    
+}
+
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight:900;
+   
+}
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+    font-size:xxx-large;
+    font-weight:900;
+}
+h3{
+    font-size: medium;
+    text-align: center;
+    color: orange;
+    border:5px solid black;
+    background-color: aliceblue;
+}
+
+
+div.gallery {
+
+    border: 1px solid #ccc;
+    float: left;
+  
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
