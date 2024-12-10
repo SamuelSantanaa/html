@@ -1,0 +1,37 @@
+td{
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:MediumSlateBlue;
+    font-weight:900;
+    
+    
+ }
+p{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color:MediumSlateBlue;
+    text-align: center;
+    font-weight:950; 
+   
+    
+}
+body{
+    background-color:linen;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight:900;
+}
+
+h1{
+    color:darkorange;
+    text-align: center;
+    font-size:xxx-large;
+    font-weight:900;
+}
