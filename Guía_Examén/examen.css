@@ -1,0 +1,605 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+#fila1{
+    position: relative;
+    right: 16em;
+    
+}
+    #a1{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0em;  
+    }
+    #a2{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 4em;  
+    }
+    #a3{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 8em;  
+    }
+    #a4{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 12em;  
+    }
+    #a5{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 16em;  
+    }
+    #a6{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 20em;  
+    }
+    #a7{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 24em;  
+    }
+    #a8{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 28em;  
+    }
+
+#fila2{
+    height: 4em;
+    position: relative;
+
+}
+    #b1{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 0em;
+        top: 4em;  
+    }
+    #b2{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 4em;
+        top: 4em;  
+    }
+    #b3{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 8em;  
+        top: 4em; 
+    }
+    #b4{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 12em;
+        top: 4em;   
+    }
+    #b5{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 16em;
+        top: 4em;   
+    }
+    #b6{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 20em; 
+        top: 4em;  
+    }
+    #b7{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 24em;  
+        top: 4em; 
+    }
+    #b8{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 28em;  
+        top: 4em; 
+    }
+
+#fila3{
+    height: 4em;
+    position: relative;
+}
+    #c1{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0em; 
+        top: 8em; 
+    }
+    #c2{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 4em;  
+        top: 8em; 
+    }
+    #c3{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 8em;  
+        top: 8em; 
+    }
+    #c4{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 12em; 
+        top: 8em;  
+    }
+    #c5{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 16em;  
+        top: 8em; 
+    }
+    #c6{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 20em;  
+        top: 8em; 
+    }
+    #c7{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 24em;  
+        top: 8em; 
+    }
+    #c8{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 28em;  
+        top: 8em; 
+    }
+
+#fila4{
+    height: 4em;
+    position: relative;
+
+}
+    #d1{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 0em;
+        top: 12em;  
+    }
+    #d2{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 4em;
+        top: 12em;  
+    }
+    #d3{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 8em;  
+        top: 12em; 
+    }
+    #d4{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 12em;
+        top: 12em;   
+    }
+    #d5{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 16em;
+        top: 12em;   
+    }
+    #d6{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 20em; 
+        top: 12em;  
+    }
+    #d7{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 24em;  
+        top: 12em; 
+    }
+    #d8{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 28em;  
+        top: 12em; 
+    }
+
+#fila5{
+    height: 4em;
+    position: relative;
+}
+    #e1{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0em;  
+        top: 16em; 
+    }
+    #e2{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 4em;  
+        top: 16em; 
+    }
+    #e3{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 8em;  
+        top: 16em; 
+    }
+    #e4{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 12em;  
+        top: 16em; 
+    }
+    #e5{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 16em;  
+        top: 16em; 
+    }
+    #e6{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 20em;  
+        top: 16em; 
+    }
+    #e7{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 24em;  
+        top: 16em; 
+    }
+    #e8{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 28em;  
+        top: 16em; 
+    }
+
+#fila6{
+    height: 4em;
+    position: relative;
+
+}
+    #f1{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 0em;
+        top: 20em;  
+    }
+    #f2{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 4em;
+        top: 20em;  
+    }
+    #f3{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 8em;  
+        top: 20em; 
+    }
+    #f4{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 12em;
+        top: 20em;   
+    }
+    #f5{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 16em;
+        top: 20em;   
+    }
+    #f6{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 20em; 
+        top: 20em;  
+    }
+    #f7{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 24em;  
+        top: 20em; 
+    }
+    #f8{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 28em;  
+        top: 20em;
+    }
+
+#fila7{
+    height: 4em;
+    position: relative;
+}
+    #g1{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0em; 
+        top: 24em;  
+    }
+    #g2{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 4em;
+        top: 24em;    
+    }
+    #g3{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 8em;  
+        top: 24em;  
+    }
+    #g4{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 12em;  
+        top: 24em;  
+    }
+    #g5{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 16em; 
+        top: 24em;   
+    }
+    #g6{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 20em;  
+        top: 24em;  
+    }
+    #g7{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 24em;  
+        top: 24em;  
+    }
+    #g8{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 28em;  
+        top: 24em;  
+    }
+
+#fila8{
+    height: 4em;
+    position: relative;
+
+}
+    #i1{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 0em;
+        top: 28em;  
+    }
+    #i2{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 4em;
+        top: 28em;  
+    }
+    #i3{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 8em;  
+        top: 28em; 
+    }
+    #i4{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 12em;
+        top: 28em;   
+    }
+    #i5{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 16em;
+        top: 28em;   
+    }
+    #i6{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 20em; 
+        top: 28em;  
+    }
+    #i7{
+        width: 4em;
+        height: 4em;
+        background-color: #acacac;
+        position: absolute;
+        left: 24em;  
+        top: 28em; 
+    }
+    #i8{
+        width: 4em;
+        height: 4em;
+        background-color: #ffffff;
+        position: absolute;
+        left: 28em;  
+        top: 28em; 
+    }
+    
+    #fila1 :hover{
+        background-color:aqua ;
+    }
+    #fila2 :hover{
+        background-color:aqua ;
+    }
+    #fila3 :hover{
+        background-color:aqua ;
+    }
+    #fila4 :hover{
+        background-color:aqua ;
+    }
+    #fila5 :hover{
+        background-color:aqua ;
+    }
+    #fila6 :hover{
+        background-color:aqua ;
+    }
+    #fila7 :hover{
+        background-color:aqua ;
+    }
+    #fila8 :hover{
+        background-color:aqua ;
+    }
+figure {
+    text-align: center;
+    margin: 0px;
+    justify-content: right;
+    align-items: right;
+}
+
+figure img{
+    height: 4em;
+    z-index: 2;
+}
+
+footer{
+    position: relative;
+    top: 30em;
+    height: 100%
+}
+
+header{
+    padding: 2em;
+
+}
