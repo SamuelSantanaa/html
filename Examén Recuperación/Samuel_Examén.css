@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: gray;
+    place-items: center;
+}
+figure {
+    text-align: center;
+    margin: 0px;
+    justify-content: right;
+    align-items: center;
+    place-items:center;
+}
+
+figure img{
+    height: 4em;
+    z-index: 2;
+}
+
+footer{
+    position: relative;
+    top: 30em;
+    height: 100%
+}
+
+header{
+    padding: 1em;
+    width: 80% ;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+
+}
+h1{
+    color: white;
+}
+img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+#fila1{
+    position:relative;
+    height:0em;
+    right:23em;
+    border-radius: 10px;
+    
+}
+    #a1{
+        width: 15em;
+        height: 4em;
+        background-color: rgb(114, 97, 97);
+        position: absolute;
+        left: 0;
+        right: 10px;  
+    }
+    #a2{
+        width: 15em;
+        height: 4em;
+        background-color: rgb(114, 97, 97);
+        position: absolute;
+        left: 10em;  
+    }
+    #a3{
+        width: 15em;
+        height: 4em;
+        background-color: rgb(114, 97, 97);
+        position: absolute;
+        left: 20em;  
+    }
+    #a4{
+        width: 15em;
+        height: 4em;
+        background-color: rgb(114, 97, 97);
+        position: absolute;
+        left: 30em;  
+    }
+
+    #fila2{
+        height: 4em;
+        position: relative;
+        right:23em;
+    }
+        #b1{
+            width: 15em;
+            height: 4em;
+            background-color: rgb(114, 97, 97);
+            position: absolute;
+            left: 0em;  
+            top:4em;
+        }
+        #b2{
+            width: 15em;
+            height: 4em;
+            background-color: rgb(114, 97, 97);
+            position: absolute;
+            left: 10em; 
+            top:4em; 
+        }
+        #b3{
+            width: 15em;
+            height: 4em;
+            background-color: rgb(114, 97, 97);
+            position: absolute;
+            left: 20em;  
+            top:4em;
+        }
+        #b4{
+            width: 15em;
+            height: 4em;
+            background-color: rgb(114, 97, 97);
+            position: absolute;
+            left: 30em; 
+            top:4em; 
+        }
+
+        #fila3{
+            height: 4em;
+            position: relative;
+            right:23em;
+        }
+            #c1{
+                width: 15em;
+                height: 4em;
+                background-color: rgb(114, 97, 97);
+                position: absolute;
+                left: 0em;  
+                top:8em;
+            }
+            #c2{
+                width: 15em;
+                height: 4em;
+                background-color: rgb(114, 97, 97);
+                position: absolute;
+                left: 10em; 
+                top:8em; 
+            }
+            #c3{
+                width: 15em;
+                height: 4em;
+                background-color: rgb(114, 97, 97);
+                position: absolute;
+                left: 20em;  
+                top:8em;
+            }
+            #c4{
+                width: 15em;
+                height: 4em;
+                background-color: rgb(114, 97, 97);
+                position: absolute;
+                left: 30em; 
+                top:8em; 
+            }
+
+            #fila4{
+                height: 4em;
+                position: relative;
+                
+            }
+                #d1{
+                    width: 15em;
+                    height: 4em;
+                    background-color: rgb(114, 97, 97);
+                    position: absolute;
+                    left: 0em;  
+                    top:4em;
+                }
+                #d2{
+                    width: 15em;
+                    height: 4em;
+                    background-color: rgb(114, 97, 97);
+                    position: absolute;
+                    left: 10em; 
+                    top:4em; 
+                }
+                #d3{
+                    width: 15em;
+                    height: 4em;
+                    background-color: rgb(114, 97, 97);
+                    position: absolute;
+                    left: 20em;  
+                    top:4em;
+                }
+                #d4{
+                    width: 15em;
+                    height: 4em;
+                    background-color: rgb(114, 97, 97);
+                    position: absolute;
+                    left: 30em; 
+                    top:4em; 
+                   
+                }
+
+                #fila1 :hover{
+                    background-color:yellow ;
+                }
+                #fila2 :hover{
+                    background-color:yellow ;
+                }
+                #fila3 :hover{
+                    background-color:yellow;
+                }
+                #fila4 :hover{
+                    background-color:yellow ;
+
+                }
+                #d4 :hover{
+                    background-image: url(Wally.gif);
+                }
+
+
